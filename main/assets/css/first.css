@@ -1,0 +1,48 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+/*used to hide stuff not needed*/
+.hidden{
+  display: none;
+}
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#main{
+	margin-top: 50px;
+}
+
+#homeTop{
+	text-align: center;
+	margin: 100px 0 50px 0;
+}
+
+#listing{
+    margin: 0 auto;
+    width: 300px;
+}
+
+select{
+	width: 200px;
+	text-align: center;
+}
+
+select option{
+	padding: 1px 0 1px 0;
+}
+
+form{
+	margin-top: 20px;
+}
+
+
+a:hover{
+    text-decoration: none;
+}

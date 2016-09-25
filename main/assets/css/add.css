@@ -1,0 +1,76 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+/*used to hide stuff not needed*/
+.hidden{
+  display: none;
+}
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+#info{
+	margin-top: 50px;
+}
+#info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#info li{
+	text-align: center;
+	font-size: 25px;
+}
+#wrapper{
+	margin-top: 50px;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+#homeTop{
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+#listing{
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 50px;
+}
+
+select{
+	width: 200px;
+	text-align: center;
+}
+
+select option{
+	padding: 1px 0 1px 0;
+}
+
+form{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.formsec{
+	margin-bottom: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#courses{
+	width: 300px;
+}

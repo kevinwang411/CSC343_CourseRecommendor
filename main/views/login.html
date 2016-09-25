@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Recommender</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+
+    <body>
+        <div class="container">
+            {% if error %}
+              <div id='error' style="color:red;">
+                  <span>Error:</span>
+                  {{ error }}
+              </div>
+            {% endif %}
+            <div class="login">
+                <h1 class="login-heading"><strong>Welcome</strong>, Please login.</h1>
+                <form method="post">
+                    <input type="text" name="username" id="username" placeholder="Username" required="required" class="input"/>
+                    <div class="login-footer">
+                        <button type="submit" class="btn">Login</button>
+                        <br>
+                        <br>
+                        New user? <a href="signup"> Signup </a> first!
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

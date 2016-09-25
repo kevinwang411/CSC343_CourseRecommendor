@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Recommender</title>
+        <link rel="stylesheet" href="css/signup.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            {% if error %}
+              <div style="color:red;">
+                <div role="alert">
+                  <span>Error:</span>
+                  {{ error }}
+                </div>
+              </div>
+            {% endif %}
+            <h1 class="login-heading">Fill up your user information</h1>
+                <form method="post">
+                    <div>
+                        <label for="username">Username</label>
+                        <br>
+                        <input type="text"  required="required" name="username" id="username">
+                    </div>
+                    <div>
+                        <label for="age">Age:</label>
+                        <br>
+                        <input type="number" required="required" name="age" id="age" min="16" max="99">     
+                    </div>
+                    <div>
+                        <label for="gender">
+                            Gender:
+                        </label>
+                        <br>
+                        <select name="gender"  required="required" id = "gender">
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                        </select> 
+                    </div>
+                    <div>
+                        <label for = "country">Native Country:</label>
+                        <br>
+                        <input type="text" name="country"  required="required" id = "country">   
+                    </div>
+                    <button class="btn-primary" type="submit">Submit Info</button>
+                </form>
+        </div>
+    </div>
+    </body>
+</html>

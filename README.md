@@ -2,6 +2,6 @@
 
 In cmd type nom install
 
-In cmd tupe node server.js
+In cmd type node server.js
 
 Go to http://localhost:3000/
